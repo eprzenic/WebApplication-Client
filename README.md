@@ -6,7 +6,7 @@
 
 ### This Project Changes/Additions
 
-coffeescript, emblem, mocha, chai, sinon
+coffeescript, emblem, stylus, mocha, chai, sinon, and components (package.json, bower.json)
 
 ## Running / Development
 
