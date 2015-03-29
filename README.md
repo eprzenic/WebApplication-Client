@@ -1,6 +1,6 @@
 # WebApplicationClient
 
-## Based off
+### Based Off Of Project
 
 [http://www.ember-cli.com/#overview](ember-cli)
 
