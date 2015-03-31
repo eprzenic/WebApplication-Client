@@ -1,3 +1,13 @@
 h2#title Welcome to Ember.js
 
+ul.nav
+  li = link-to 'about' | About
+  li = link-to 'test' | Test
+  li = link-to 'test.derp' | Test-Derp
+
+Ember.TextField valueBinding="search"
+button{action "query"} Search
+p
+  = search
+
 == outlet
