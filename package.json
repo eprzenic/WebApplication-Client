@@ -1,7 +1,7 @@
 {
-  "name": "web-application-client",
+  "name": "app",
   "version": "0.0.0",
-  "description": "Small description for web-application-client goes here",
+  "description": "Small description for app goes here",
   "private": true,
   "directories": {
     "doc": "doc",
