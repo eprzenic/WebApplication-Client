@@ -21,11 +21,7 @@ module.exports = function(environment) {
 
   // disable coffeescript blueprints
   ENV.coffeeOptions = {
-<<<<<<< HEAD
     blueprints: true
-=======
-    blueprints: false
->>>>>>> 9b14dde037a7eb721a723e7a472008cd1b603f71
   }
 
   if (environment === 'development') {
