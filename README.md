@@ -1,4 +1,4 @@
-# WebApplicationClient
+# WebApplication-Client
 
 ### Running Off of Project Generator:
 
