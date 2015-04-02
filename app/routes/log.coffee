@@ -2,9 +2,9 @@
 
 LogRoute = Ember.Route.extend {
   model: () ->
-    log = @store.find('log')
+    logs = @store.find('log')
     #console.log(log)
-    return log
+    return logs
 }
 
 `export default LogRoute`
