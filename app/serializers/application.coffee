@@ -1,7 +1,5 @@
 `import DS from 'ember-data'`
 
-# http://guides.emberjs.com/v1.10.0/models/the-rest-adapter/
-
 ApplicationSerializer = DS.RESTSerializer.extend({
   primaryKey: '_id',
   extractArray: (store, type, payload) ->

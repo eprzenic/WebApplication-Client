@@ -1,7 +1,8 @@
 `import DS from 'ember-data'`
+`import ENV from '../config/environment';`
 
 ApplicationAdapter = DS.RESTAdapter.extend({
-  host: 'http://localhost:3000',
+  host: ENV.APP.API_HOST,
   namespace: 'api'
 })
 

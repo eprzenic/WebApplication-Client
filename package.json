@@ -1,7 +1,7 @@
 {
   "name": "app",
   "version": "0.0.0",
-  "description": "Small description for app goes here",
+  "description": "",
   "private": true,
   "directories": {
     "doc": "doc",
