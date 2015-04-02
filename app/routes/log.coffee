@@ -2,8 +2,8 @@
 
 LogRoute = Ember.Route.extend {
   model: () ->
-    log = @store.find('Log')
-    console.log(log)
+    log = @store.find('log')
+    #console.log(log)
     return log
 }
 

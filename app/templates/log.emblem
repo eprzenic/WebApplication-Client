@@ -1,0 +1,3 @@
+ul
+  each log in model
+    li {{log.name}} - {{log.value}}
