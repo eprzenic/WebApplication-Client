@@ -6,7 +6,7 @@
 
 ### This Project Changes/Additions
 
-coffeescript, emblem, stylus, mocha, chai, sinon, and components (package.json, bower.json)
+coffeescript, emblem, stylus, mocha, chai, sinon, and components (package.json, bower.json), mongo (data models)
 
 ## Running / Development
 
