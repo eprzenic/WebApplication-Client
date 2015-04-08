@@ -5,4 +5,7 @@ body
   h2 Welcome to Ember.js
   h3 {{title}} as of {{year}}
 
+  link-li
+    link-to 'log' | Log
+
   == outlet
