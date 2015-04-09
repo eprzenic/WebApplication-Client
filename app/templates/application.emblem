@@ -5,7 +5,17 @@ body
   h2 Welcome to Ember.js
   h3 {{title}} as of {{year}}
 
-  link-li
-    link-to 'log' | Log
+  ul
+    link-li
+      link-to 'log' | Log
+
+    if session.isAuthenticated
+      li
+        a{action 'invalidateSession'} Logout
+    else
+      li
+        link-li
+          link-to 'login' | Login
+        //a{action 'authenticateSession'} Login
 
   == outlet
