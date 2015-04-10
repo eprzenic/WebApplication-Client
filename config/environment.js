@@ -20,6 +20,18 @@ module.exports = function(environment) {
     }
   };
 
+  // http://ember-simple-auth.com/
+  // requests to a backend server that requires authorization
+  ENV['simple-auth'] = {
+    serverTokenRevocationEndpoint: '/revoke',
+    authorizer: 'simple-auth-authorizer:oauth2-bearer'
+  };
+
+  // authenticator would by default use the same domain and port to send the authentication requests
+  ENV['simple-auth-oauth2'] = {
+    serverTokenEndpoint: 'http://localhost:3000/oauth/token'
+  }
+
   // disable coffeescript blueprints
   ENV.coffeeOptions = {
     blueprints: true
