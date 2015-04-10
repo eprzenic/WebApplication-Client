@@ -2,7 +2,8 @@
 `import LoginControllerMixin from 'simple-auth/mixins/login-controller-mixin'`
 
 LoginController = Ember.Controller.extend(LoginControllerMixin, {
-  authenticator: 'simple-auth-authenticator:oauth2-password-grant'
+  #authenticator: 'simple-auth-authenticator:oauth2-password-grant'
+  authenticator: 'authenticator:custom'
 })
 
 `export default LoginController`
