@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'app',
+    modulePrefix: 'application',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
@@ -23,7 +23,7 @@ module.exports = function(environment) {
   // disable coffeescript blueprints
   ENV.coffeeOptions = {
     blueprints: true
-  }
+  };
 
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
@@ -31,8 +31,6 @@ module.exports = function(environment) {
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
-
-    ENV.APP.API_HOST = 'http://localhost:3000';
   }
 
   if (environment === 'test') {
@@ -45,11 +43,10 @@ module.exports = function(environment) {
     ENV.APP.LOG_VIEW_LOOKUPS = false;
 
     ENV.APP.rootElement = '#ember-testing';
-    ENV.APP.API_HOST = 'http://localhost:3000';
   }
 
   if (environment === 'production') {
-    ENV.APP.API_HOST = 'http://localhost:3000';
+
   }
 
   return ENV;

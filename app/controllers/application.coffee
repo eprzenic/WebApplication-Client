@@ -1,4 +1,5 @@
 `import Ember from 'ember'`
+`import ENV from '../config/environment';`
 
 ApplicationController = Ember.Controller.extend {
   title: 'This is your title'
